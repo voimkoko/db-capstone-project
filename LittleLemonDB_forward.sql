@@ -47,7 +47,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `LittleLemonDM`.`Bookings` (
   `BookingID` INT NOT NULL AUTO_INCREMENT,
   `TableNumber` INT NULL,
-  `BookingDate` TIME NULL,
+  `BookingDate` DATE NULL,
   `CustomerID` INT NULL,
   `StaffID` INT NULL,
   PRIMARY KEY (`BookingID`),
